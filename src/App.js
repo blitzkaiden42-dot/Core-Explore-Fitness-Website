@@ -7,7 +7,7 @@
   import Programs from './Pages/Programs';
   import Blogs from './Pages/Blogs';
   import Login from './Pages/Login';
-  import SignUp from './Pages/SignUp';
+  import Signup from './Pages/SignUp';
   import Contacts from './Pages/Contacts';
 
 
@@ -21,7 +21,7 @@
             <Route path="/programs" element={<Programs />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/sign-up" element={<SignUp />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </Router>
